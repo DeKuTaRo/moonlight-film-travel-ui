@@ -1,0 +1,72 @@
+@import 'normalize.css';
+
+:root {
+    --text-color: #fff;
+    --tw-text-opacity: 1;
+    --color-sidebar-item: rgb(148, 148, 148);
+
+    --font-family: 'Roboto', ui-sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: rgb(28, 28, 28);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    overflow-y: overlay;
+}
+
+// Scrollbar css
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+// Fonts embeded
+@font-face {
+    font-family: Roboto;
+    src: url('/assets/fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('/assets/fonts/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2');
+    font-weight: 600;
+}

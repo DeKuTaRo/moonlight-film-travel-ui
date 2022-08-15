@@ -1,0 +1,42 @@
+.wrapper {
+    padding: 40px 0 0 32px;
+    height: 100%;
+    position: fixed;
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-link {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin-left: 10px;
+}
+
+.menu,
+.personal,
+.general {
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.75rem;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.menu-items,
+.personal-items,
+.general-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px 0 0 16px;
+}

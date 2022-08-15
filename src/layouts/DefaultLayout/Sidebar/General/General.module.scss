@@ -1,0 +1,21 @@
+.general-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    color: var(--color-sidebar-item);
+
+    &:hover {
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+        text-decoration: none;
+    }
+}
+
+.title {
+    margin: 0 0 0 16px;
+    font-size: 1.6rem;
+}
